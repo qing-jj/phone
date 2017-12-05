@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -202,7 +202,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(6);
+var	fixUrls = __webpack_require__(5);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -519,19 +519,13 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "a287393f74e0d166a97ccd20c9da4462.eot";
-
-/***/ }),
-/* 3 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_base_css__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_base_css__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_base_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_base_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_chat_css__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_chat_css__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_chat_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_chat_css__);
 /**
  * Created by Administrator on 2017/12/1.
@@ -542,13 +536,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 4 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(5);
+var content = __webpack_require__(4);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -573,7 +567,7 @@ if(false) {
 }
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -587,7 +581,7 @@ exports.push([module.i, "/*��ʽ����*/\r\nhtml, body, div, span, obje
 
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports) {
 
 
@@ -682,13 +676,13 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(8);
+var content = __webpack_require__(7);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -713,7 +707,7 @@ if(false) {
 }
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -721,28 +715,10 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\t@font-face {\r\n\t  font-family: 'iconfont';\r\n\t  src: url(" + __webpack_require__(2) + ");\r\n\t  src: url(" + __webpack_require__(2) + "?#iefix) format('embedded-opentype'),\r\n\t  url(" + __webpack_require__(9) + ") format('woff'),\r\n\t  url(" + __webpack_require__(10) + ") format('truetype'),\r\n\t  url(" + __webpack_require__(11) + "#iconfont) format('svg');\r\n\t}\r\n\t.iconfont{\r\n\t  font-family:\"iconfont\" !important;\r\n\t  font-size:30px;\r\n\t  font-style:normal;\r\n\t  -webkit-font-smoothing: antialiased;\r\n\t  -webkit-text-stroke-width: 0.2px;\r\n\t  -moz-osx-font-smoothing: grayscale;\r\n\t}\r\n\r\n\thtml,body{\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\r\n\t\t\r\n\t}\r\n\tbody{\r\n\t\tpadding: 50px 0;\r\n\t\tbox-sizing: border-box;\r\n\t}\r\n\t/*头部样式*/\r\n\theader{\r\n\t\tposition: fixed;\r\n\t\ttop:0;\r\n\t\tleft:0;\r\n\t\twidth:100%;\r\n\t\tfont-size:18px;\r\n\t\theight: 50px;\r\n\t\tline-height: 50px;\r\n\t\ttext-align: center;\r\n\t\tbackground: #666;\r\n\t\tcolor:white;\r\n\r\n\t}\r\n\theader .iconfont{\r\n\t\tfont-size: 24px;\r\n\t}\r\n\theader .search{\r\n\t\tposition: absolute;\r\n\t\ttop:50%;\r\n\t\tright: 60px;\r\n\t\ttransform: translateY(-50%);\r\n\t}\r\n\theader .add{\r\n\t\tposition: absolute;\r\n\t\ttop:50%;\r\n\t\tright: 20px;\r\n\t\ttransform: translateY(-50%);\r\n\t}\r\n\r\n\t/*中间部分样式*/\r\n\tsection ul{\r\n\t\tpadding: 8px;\r\n\t\tfont-size:14px; \r\n\t}\r\n\tsection li{\r\n\t\theight: 50px;\r\n\t\tborder-bottom:1px solid #eee;\r\n\t\tpadding-bottom: 4px; \r\n\t\toverflow: hidden;\r\n\t}\r\n\tsection li>div{\r\n\t\tfloat: left;\r\n\t\tmargin-right:4px;\r\n\t\theight: 100%;\r\n\t}\r\n\tsection li .userimg{\r\n\t\twidth: 50px;\r\n\t\theight: 50px;\r\n\t\tborder-radius: 50%;\r\n\t\tbackground: pink;\r\n\t}\r\n\tsection li .userimg>img{\r\n\t\twidth: 100%;\r\n\t}\r\n\tsection li .message{\r\n\t\twidth: 70%;\r\n\r\n\t}\r\n\tsection li .message h6{\r\n\t\tfont-size:16px;\r\n\t\tfont-weight: 600;\r\n\t\tline-height: 30px;\r\n\t}\r\n\tsection li .message p{\r\n\t\tline-height: 20px;\r\n\t\toverflow: hidden;\r\n\t\ttext-overflow: ellipsis;\r\n\t\twhite-space: nowrap;\r\n\t}\r\n\tsection li .time{\r\n\t\tline-height: 50px;\r\n\t}\r\n\r\n\t/*底部样式*/\r\n\tfooter{\r\n\t\tposition: fixed;\r\n\t\tbottom:0;\r\n\t\tleft:0;\r\n\t\twidth: 100%;\r\n\t\theight: 64px;\r\n\t\tborder-top: 0.5px solid #ccc;\r\n\t\tbackground: #eee;\r\n\t\ttext-align: center;\r\n\r\n\t}\r\n\tfooter ul{\r\n\t\twidth:100%;\r\n\t\theight: 100%;\r\n\t\tfont-size:14px; \r\n\t\toverflow: hidden;\r\n\t\tcolor:#666;\r\n\t\tpadding: 4px 0;\r\n\t\tbox-sizing: border-box;\r\n\t}\r\n\tfooter ul li{\r\n\t\twidth: 25%;\r\n\t\theight: 100%;\r\n\t\tfloat: left;\r\n\t}\r\n\tfooter ul li span,footer ul li span{\r\n\t\tdisplay: block;\r\n\r\n\t}", ""]);
+exports.push([module.i, "\t@font-face {\r\n\t  font-family: 'iconfont';\r\n\t  src: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./iconfont.eot\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\r\n\t  src: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./iconfont.eot\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + "?#iefix) format('embedded-opentype'),\r\n\t  url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./iconfont.woff\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ") format('woff'),\r\n\t  url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./iconfont.ttf\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ") format('truetype'),\r\n\t  url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./iconfont.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + "#iconfont) format('svg');\r\n\t}\r\n\t.iconfont{\r\n\t  font-family:\"iconfont\" !important;\r\n\t  font-size:30px;\r\n\t  font-style:normal;\r\n\t  -webkit-font-smoothing: antialiased;\r\n\t  -webkit-text-stroke-width: 0.2px;\r\n\t  -moz-osx-font-smoothing: grayscale;\r\n\t}\r\n\r\n\thtml,body{\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\r\n\t\t\r\n\t}\r\n\tbody{\r\n\t\tpadding: 50px 0;\r\n\t\tbox-sizing: border-box;\r\n\t}\r\n\t/*头部样式*/\r\n\theader{\r\n\t\tposition: fixed;\r\n\t\ttop:0;\r\n\t\tleft:0;\r\n\t\twidth:100%;\r\n\t\tfont-size:18px;\r\n\t\theight: 50px;\r\n\t\tline-height: 50px;\r\n\t\ttext-align: center;\r\n\t\tbackground: #666;\r\n\t\tcolor:white;\r\n\r\n\t}\r\n\theader .iconfont{\r\n\t\tfont-size: 24px;\r\n\t}\r\n\theader .search{\r\n\t\tposition: absolute;\r\n\t\ttop:50%;\r\n\t\tright: 60px;\r\n\t\ttransform: translateY(-50%);\r\n\t}\r\n\theader .add{\r\n\t\tposition: absolute;\r\n\t\ttop:50%;\r\n\t\tright: 20px;\r\n\t\ttransform: translateY(-50%);\r\n\t}\r\n\r\n\t/*中间部分样式*/\r\n\tsection ul{\r\n\t\tpadding: 8px;\r\n\t\tfont-size:14px; \r\n\t}\r\n\tsection li{\r\n\t\theight: 50px;\r\n\t\tborder-bottom:1px solid #eee;\r\n\t\tpadding-bottom: 4px; \r\n\t\toverflow: hidden;\r\n\t}\r\n\tsection li>div{\r\n\t\tfloat: left;\r\n\t\tmargin-right:4px;\r\n\t\theight: 100%;\r\n\t}\r\n\tsection li .userimg{\r\n\t\twidth: 50px;\r\n\t\theight: 50px;\r\n\t\tborder-radius: 50%;\r\n\t\tbackground: pink;\r\n\t}\r\n\tsection li .userimg>img{\r\n\t\twidth: 100%;\r\n\t}\r\n\tsection li .message{\r\n\t\twidth: 70%;\r\n\r\n\t}\r\n\tsection li .message h6{\r\n\t\tfont-size:16px;\r\n\t\tfont-weight: 600;\r\n\t\tline-height: 30px;\r\n\t}\r\n\tsection li .message p{\r\n\t\tline-height: 20px;\r\n\t\toverflow: hidden;\r\n\t\ttext-overflow: ellipsis;\r\n\t\twhite-space: nowrap;\r\n\t}\r\n\tsection li .time{\r\n\t\tline-height: 50px;\r\n\t}\r\n\r\n\t/*底部样式*/\r\n\tfooter{\r\n\t\tposition: fixed;\r\n\t\tbottom:0;\r\n\t\tleft:0;\r\n\t\twidth: 100%;\r\n\t\theight: 64px;\r\n\t\tborder-top: 0.5px solid #ccc;\r\n\t\tbackground: #eee;\r\n\t\ttext-align: center;\r\n\r\n\t}\r\n\tfooter ul{\r\n\t\twidth:100%;\r\n\t\theight: 100%;\r\n\t\tfont-size:14px; \r\n\t\toverflow: hidden;\r\n\t\tcolor:#666;\r\n\t\tpadding: 4px 0;\r\n\t\tbox-sizing: border-box;\r\n\t}\r\n\tfooter ul li{\r\n\t\twidth: 25%;\r\n\t\theight: 100%;\r\n\t\tfloat: left;\r\n\t}\r\n\tfooter ul li span,footer ul li span{\r\n\t\tdisplay: block;\r\n\r\n\t}", ""]);
 
 // exports
 
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2d393e25b233c69910f3227b06019330.woff";
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "f3211f1ac7aa81299de889db4c73dd6a.ttf";
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "152b7f02822173687ce53f21b6fe53b7.svg";
 
 /***/ })
 /******/ ]);
