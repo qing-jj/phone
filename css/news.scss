@@ -19,6 +19,7 @@ a{
 body{
 	@extend html;
 	padding-top:80/$sc +rem;
+	padding-bottom:50/$sc+rem;
 	box-sizing:border-box;
 }
 header{
