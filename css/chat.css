@@ -1,0 +1,135 @@
+	@font-face {
+	  font-family: 'iconfont';
+	  src: url('../font/iconfont.eot');
+	  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+	  url('../font/iconfont.woff') format('woff'),
+	  url('../font/iconfont.ttf') format('truetype'),
+	  url('../font/iconfont.svg#iconfont') format('svg');
+	}
+	.iconfont{
+	  font-family:"iconfont" !important;
+	  font-size:30px;
+	  font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -webkit-text-stroke-width: 0.2px;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	html{
+		width: 100%;
+		height: 100%;
+		
+	}
+	body{
+		width: 100%;
+		height: 100%;
+		padding: 64px 0;
+		box-sizing: border-box;
+	}
+	/*头部样式*/
+	header{
+		position: fixed;
+		top:0;
+		left:0;
+		width:100%;
+		font-size:18px;
+		height: 64px;
+		line-height: 64px;
+		text-align: center;
+		background: #666;
+		color:white;
+
+	}
+	header .iconfont{
+		font-size: 24px;
+	}
+	header .search{
+		position: absolute;
+		top:50%;
+		right: 60px;
+		transform: translateY(-50%);
+	}
+	header .add{
+		position: absolute;
+		top:50%;
+		right: 20px;
+		transform: translateY(-50%);
+	}
+
+	/*中间部分样式*/
+	section{
+		overflow: scroll;
+	}
+	section ul{
+		padding: 8px;
+		font-size:14px; 
+	}
+	section li{
+		height: 50px;
+		border-bottom:1px solid #eee;
+		padding-bottom: 4px; 
+		overflow: hidden;
+	}
+	section li>div{
+		float: left;
+		margin-right:4px;
+		height: 100%;
+	}
+	section li .userimg{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: pink;
+	}
+	section li .userimg>img{
+		width: 100%;
+	}
+	section li .message{
+		width: 70%;
+
+	}
+	section li .message h6{
+		font-size:16px;
+		font-weight: 600;
+		line-height: 30px;
+	}
+	section li .message p{
+		line-height: 20px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	section li .time{
+		line-height: 50px;
+	}
+
+	/*底部样式*/
+	footer{
+		position: fixed;
+		bottom:0;
+		left:0;
+		width: 100%;
+		height: 64px;
+		border-top: 0.5px solid #ccc;
+		background: #eee;
+		text-align: center;
+
+	}
+	footer ul{
+		width:100%;
+		height: 100%;
+		font-size:14px; 
+		overflow: hidden;
+		color:#666;
+		padding: 4px 0;
+		box-sizing: border-box;
+	}
+	footer ul li{
+		width: 25%;
+		height: 100%;
+		float: left;
+	}
+	footer ul li span,footer ul li span{
+		display: block;
+
+	}

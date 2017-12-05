@@ -1,0 +1,103 @@
+/*样式重置*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6, em, i { font-weight: 100;font-style: normal  }
+ul, ol {list-style-type: none  }
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+a { text-decoration: none;  outline: 0 }
+table{border-collapse:collapse;border-spacing:0;}
+/*浮动*/
+.folat_left {  float: left; }
+
+.folat_right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*定位*/
+.position_r {
+    position: relative;
+}
+
+.position_a {
+    position: absolute;
+}
+
+/*居中*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*1px宽的边框(此处只适合元素的单边边框)*/
+[class*="border_"] {
+    position: relative;
+}
+
+.border_left:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.border_right:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.border_top:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.border_bottom:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*显示、隐藏样式*/
+.dis_b {
+    display: block;
+}
+
+.dis_n {
+    display: none;
+}
